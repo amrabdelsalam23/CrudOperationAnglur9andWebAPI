@@ -1,0 +1,69 @@
+<!--Amr Abdelsalam-->
+<!--04/2020-->
+<div class="card">
+    <div class="card-body">
+      <form [formGroup]="angForm" novalidate>
+
+
+        <div class="form-group">
+            <label class="col-md-4">Name</label>
+            <input type="text" class="form-control" 
+            formControlName="name" 
+              #name/>
+          </div>
+          <div *ngIf="angForm.controls['name'].invalid && (angForm.controls['name'].dirty || angForm.controls['name'].touched)" class="alert alert-danger">
+            <div *ngIf="angForm.controls['name'].errors.required">
+              Name is required.
+            </div>
+          </div>
+
+
+          
+
+          <div class="form-group">
+            <label class="col-md-4">price</label>
+            <input type="text" class="form-control" 
+            formControlName="price" 
+              #price/>
+          </div>
+          <div *ngIf="angForm.controls['price'].invalid && (angForm.controls['price'].dirty || angForm.controls['price'].touched)" class="alert alert-danger">
+            <div *ngIf="angForm.controls['price'].errors.required">
+              price is required.
+            </div>
+          </div>
+
+
+
+          <div class="form-group">
+            <label class="col-md-4">lastupdated</label>
+            <input type="date" class="form-control" 
+            formControlName="lastupdated" 
+              #lastupdated/>
+          </div>
+          <div *ngIf="angForm.controls['lastupdated'].invalid && (angForm.controls['lastupdated'].dirty || angForm.controls['lastupdated'].touched)" class="alert alert-danger">
+            <div *ngIf="angForm.controls['lastupdated'].errors.required">
+              lastupdated is required.
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="col-md-4">photo</label>
+            <input type="file" class="form-control" 
+            formControlName="photo" 
+              #photo/>
+          </div>
+          <div *ngIf="angForm.controls['photo'].invalid && (angForm.controls['photo'].dirty || angForm.controls['photo'].touched)" class="alert alert-danger">
+            <div *ngIf="angForm.controls['photo'].errors.required">
+              photo is required.
+            </div>
+          </div>
+
+
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary"
+            [disabled]="angForm.pristine || angForm.invalid"
+            (click) = "addMember(name.value, price.value, lastupdated.value, photo.value)">Create New Product</button>
+    </div>
+      </form>
+    </div>
+  </div>

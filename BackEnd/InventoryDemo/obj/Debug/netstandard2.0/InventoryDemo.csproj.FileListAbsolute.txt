@@ -1,0 +1,14 @@
+c:\users\administrator\documents\visual studio 2017\Projects\InventoryDemo\InventoryDemo\bin\Debug\netstandard2.0\InventoryDemo.deps.json
+c:\users\administrator\documents\visual studio 2017\Projects\InventoryDemo\InventoryDemo\bin\Debug\netstandard2.0\InventoryDemo.dll
+c:\users\administrator\documents\visual studio 2017\Projects\InventoryDemo\InventoryDemo\bin\Debug\netstandard2.0\InventoryDemo.pdb
+c:\users\administrator\documents\visual studio 2017\Projects\InventoryDemo\InventoryDemo\bin\Debug\netstandard2.0\EntityFramework.dll
+c:\users\administrator\documents\visual studio 2017\Projects\InventoryDemo\InventoryDemo\bin\Debug\netstandard2.0\EntityFramework.SqlServer.dll
+c:\users\administrator\documents\visual studio 2017\Projects\InventoryDemo\InventoryDemo\bin\Debug\netstandard2.0\EntityFramework.xml
+c:\users\administrator\documents\visual studio 2017\Projects\InventoryDemo\InventoryDemo\bin\Debug\netstandard2.0\EntityFramework.SqlServer.xml
+c:\users\administrator\documents\visual studio 2017\Projects\InventoryDemo\InventoryDemo\obj\Debug\netstandard2.0\InventoryDemo.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2017\Projects\InventoryDemo\InventoryDemo\obj\Debug\netstandard2.0\InventoryDemo.csproj.CoreCompileInputs.cache
+c:\users\administrator\documents\visual studio 2017\Projects\InventoryDemo\InventoryDemo\obj\Debug\netstandard2.0\InventoryDemo.AssemblyInfoInputs.cache
+c:\users\administrator\documents\visual studio 2017\Projects\InventoryDemo\InventoryDemo\obj\Debug\netstandard2.0\InventoryDemo.AssemblyInfo.cs
+c:\users\administrator\documents\visual studio 2017\Projects\InventoryDemo\InventoryDemo\obj\Debug\netstandard2.0\InventoryDemo.dll
+c:\users\administrator\documents\visual studio 2017\Projects\InventoryDemo\InventoryDemo\obj\Debug\netstandard2.0\InventoryDemo.pdb
+c:\users\administrator\documents\visual studio 2017\Projects\InventoryDemo\InventoryDemo\bin\Debug\netstandard2.0\InventoryDemo.dll.config
